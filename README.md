@@ -18,7 +18,7 @@ Selected model: **EfficientNetB0**, **98.47% test accuracy** on a leakage-free, 
 ![Confusion matrix](plots/EfficientNetB0_test_confusion_matrix.png)
 ![Grad-CAM](plots/EfficientNetB0_gradcam.png)
 
-Full details: [reports/IDSE_FINAL_REPORT](reports/IDSE_FINAL_REPORT_UPDATED.md)
+Full details: reports/IDSE_FINAL_REPORT_UPDATED.md
 
 ## Repository structure
 
