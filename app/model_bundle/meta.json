@@ -1,0 +1,46 @@
+{
+  "arch": "EfficientNetB0",
+  "class_names": [
+    "Coccidiosis",
+    "Healthy",
+    "Newcastle_Disease",
+    "Salmonellosis"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "conf_threshold": 0.75,
+  "feature_layer": "gap",
+  "maha": {
+    "threshold": 3.30167546574723,
+    "accept_rate": 0.975,
+    "fitted_on": "train",
+    "calibrated_on": "val"
+  },
+  "clip": {
+    "enabled": true,
+    "model_name": "openai/clip-vit-base-patch32",
+    "threshold": 0.09778140373528009,
+    "accept_rate": 0.975
+  },
+  "evaluation": {
+    "split_strategy": "REBUILT (group-aware)",
+    "n_test": 983,
+    "test_accuracy": 0.9847,
+    "test_macro_f1": 0.9765,
+    "test_accuracy_ci95": [
+      0.9766022380467956,
+      0.9918616480162767
+    ],
+    "test_macro_f1_ci95": [
+      0.9626596826523128,
+      0.9882499256027296
+    ]
+  },
+  "versions": {
+    "tensorflow": "2.21.0",
+    "keras": "3.13.2"
+  },
+  "created": "20261115_145045"
+}

@@ -1,0 +1,8 @@
+# Over GitHub's 100 MB limit - download from Google Drive instead
+checkpoints/ResNet50_best.keras
+*.zip
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
